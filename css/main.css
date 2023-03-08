@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+    #main-logo {order: -1; }
+
+    #product2 { display: none;}
+    #product3 { display: none;}
+    #product4 { display: none;}
+}
+
+@media screen and (min-width: 768px) {
+    #main-logo {order: -1; }
+    
+   
+    #product4 { display: none;}
+}
+
+@media screen and (min-width: 1200px) {
+/* #product2 { display: none;} */
+/* #product3 { display: block;} */
+#product4 { display: block;}
+}
+
+
