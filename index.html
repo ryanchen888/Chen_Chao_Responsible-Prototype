@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>CSS Framework</title>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <header class="grid-con" id="main-header">
+        <div class="box col-start-1 col-end-2 m-col-start-1 m-col-end-3 l-col-end-4" id="main-logo">Logo</div>
+        <nav class="box col-start-2 col-end-5 m-col-start-5 m-col-end-13 l-col-start-6 l-col-end-13" id="main-nav">
+            Nagigation
+        </nav>
+
+    </header>
+    <main>
+        <section class="grid-con" id="hero-con">
+            <div class="box col-span-full">Hero Image</div>
+        </section>
+        <section class="grid-con" id="history">
+            <div class="box col-span-full">History</div>
+        </section>
+        <section class="grid-con" id="blog">
+            <div class="box col-span-full">Blog</div>
+        </section>
+        
+        <section class="grid-con" id="products">
+            <div class="box col-start-2 col-end-4 m-col-start-3 m-col-end-6 l-col-start-4 l-con-end-6" id="product1">Product 1</div>
+            <div class="box m-col-start-6 m-col-end-9 l-con-start-6 l-col-end-8" id="product2">Product 2</div>
+            <div class="box m-col-start-9 m-col-end-12 l-col-start-8 l-col-end-10" id="product3">Product 3</div>
+            <div class="box l-col-start-10 l-col-end-12" id="product4">Product 4</div>
+        </section>
+
+        <section class="grid-con" id="contact">
+            <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">Contact</div>
+        </section>
+    </main>
+    <footer class="box">
+        footer
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
